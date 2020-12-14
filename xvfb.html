@@ -1,0 +1,26 @@
+<script type="text/javascript">
+    RED.nodes.registerType('start-xvfb', {
+        category: 'function',
+        color: '#a6bbcf',
+        defaults: {
+        },
+        inputs: 1,
+        outputs: 1,
+        icon: "file.png",
+        label: function () {
+            return this.name || "Start XVFB";
+        }
+    });
+    RED.nodes.registerType('end-xvfb', {
+        category: 'function',
+        color: '#a6bbcf',
+        defaults: {
+        },
+        inputs: 1,
+        outputs: 1,
+        icon: "file.png",
+        label: function () {
+            return this.name || "End XVFB";
+        }
+    });
+</script>
